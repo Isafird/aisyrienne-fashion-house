@@ -159,30 +159,25 @@ header.site {
   color: var(--ink);
 }
 
-.admin-link {
-  font-size: .82rem;
+.tab-btn-admin {
+  margin-left: auto;
+  border-color: var(--line);
   color: var(--ink-soft);
-  border-bottom: 1px dotted var(--ink-soft);
-  padding-bottom: 1px;
-  white-space: nowrap;
-  background: none;
-  border-top: none;
-  border-left: none;
-  border-right: none;
 }
 
-.admin-link:hover {
+.tab-btn-admin:hover {
+  background: var(--ivory-deep);
   color: var(--plum);
 }
 
 @media (max-width:860px) {
   .nav-row {
     display: grid;
-    grid-template-columns: 1fr auto;
+    grid-template-columns: 1fr;
     grid-template-areas:
-      "logo admin"
-      "tabs tabs"
-      "search search";
+      "logo"
+      "tabs"
+      "search";
     row-gap: 14px;
     padding-bottom: 20px;
     align-items: center;
@@ -192,16 +187,15 @@ header.site {
     grid-area: logo;
   }
 
-  .admin-link {
-    grid-area: admin;
-    justify-self: end;
-  }
-
   .tabs {
     grid-area: tabs;
     width: 100%;
     overflow-x: auto;
     padding-bottom: 2px;
+  }
+
+  .tab-btn-admin {
+    margin-left: 0;
   }
 
   .search-box {

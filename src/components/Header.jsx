@@ -22,6 +22,9 @@ export default function Header({ storeName, activeCategory, onCategoryChange, se
               {c.label}
             </button>
           ))}
+          <button className="tab-btn tab-btn-admin" onClick={onOpenAdminLogin}>
+            Login Admin
+          </button>
         </nav>
         <div className="search-box">
           <input
@@ -31,9 +34,6 @@ export default function Header({ storeName, activeCategory, onCategoryChange, se
             onChange={(e) => onSearchChange(e.target.value)}
           />
         </div>
-        <button className="admin-link" onClick={onOpenAdminLogin}>
-          Admin
-        </button>
       </div>
     </header>
   )
