@@ -97,7 +97,8 @@ header.site {
   display: flex;
   align-items: center;
   gap: 28px;
-  padding: 16px 0;
+  padding-top: 16px;
+  padding-bottom: 16px;
 }
 
 .logo {
@@ -392,7 +393,8 @@ header.site {
 
 /* catalog */
 section.catalog {
-  padding: 28px 0 70px;
+  padding-top: 28px;
+  padding-bottom: 70px;
 }
 
 .catalog-head {
