@@ -12,7 +12,7 @@ import { waLink } from './lib/helpers'
 const DEFAULT_SETTINGS = {
   store_name: 'Aisyrienne Fashion House',
   tagline: 'Koleksi busana dan rangkaian bunga pilihan untuk momen-momen terbaik kamu — lihat ulasan pelanggan lain, lalu pesan langsung lewat WhatsApp.',
-  wa_number: '6281234567890',
+  wa_number: '6281219879171',
 }
 
 export default function App() {

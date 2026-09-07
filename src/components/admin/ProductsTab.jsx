@@ -10,6 +10,7 @@ export default function ProductsTab({ products, reviews, onAdd, onEdit, onDelete
         </div>
         <button className="btn btn-primary btn-sm" onClick={onAdd}>+ Tambah produk</button>
       </div>
+    <div style={{ overflowX: 'auto'}}>  
       <table className="admin-table">
         <thead>
           <tr><th>Foto</th><th>Nama</th><th>Kategori</th><th>Harga</th><th>Rating</th><th>Aksi</th></tr>
@@ -38,6 +39,7 @@ export default function ProductsTab({ products, reviews, onAdd, onEdit, onDelete
           })}
         </tbody>
       </table>
+    </div>  
     </section>
   )
 }
