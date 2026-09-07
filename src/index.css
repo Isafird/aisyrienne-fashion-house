@@ -76,7 +76,7 @@ img {
 .wrap {
   max-width: 1180px;
   margin: 0 auto;
-  padding: 0 clamp(20px, 4vw, 56px);
+  padding: 0 clamp(24px, 8vw, 96px);
 }
 
 .hidden {
@@ -885,7 +885,7 @@ form.review-form h4 {
 
 .admin-main {
   flex: 1;
-  padding: 34px clamp(20px, 4vw, 48px);
+  padding: 34px clamp(24px, 6vw, 72px);
   max-width: 980px;
 }
 
