@@ -284,6 +284,10 @@ form.review-form h4{ font-family:'Fraunces',serif; color:var(--plum); font-size:
 .admin-side{ width:220px; background:var(--plum); color:#EFE6DE; padding:26px 18px; flex-shrink:0; }
 .admin-side .logo{ color:#fff; font-size:1.2rem; margin-bottom:26px; display:block; }
 .admin-side .logo span{ color:var(--rose-light); }
+.admin-side .logo {
+  white-space: normal;
+  overflow-wrap: break-word;
+}
 .admin-nav-btn{
   display:block; width:100%; text-align:left; background:none; border:none; color:#D8C9D4;
   padding:10px 12px; border-radius:8px; font-size:.92rem; font-weight:600; margin-bottom:4px;
@@ -343,3 +347,10 @@ table.admin-table img{ width:44px; height:54px; object-fit:cover; border-radius:
 
 .page-loading{ padding:80px 20px; text-align:center; color:var(--ink-soft); }
 .banner-error{ background:#FBEAEA; border:1px solid #E9C7C7; color:#8A2A2A; padding:12px 16px; border-radius:10px; font-size:.88rem; margin-bottom:16px; }
+
+@media (max-width:600px) {
+  .wrap {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
